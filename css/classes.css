@@ -1,0 +1,30 @@
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+    margin: 0 0 10px;
+    font-family: 'Source Sans 3', sans-serif;
+    color: #333;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: teal;
+    transition: all 0.3s ease 0s;
+}
+.portfolio-section , .clients-feedback ,.our-blog, .contact-us{
+    width: 100%;
+    padding:  100px 0;
+}
+.active{
+    color: #ff305b !important;
+}
+.margin-width-auto{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.clr{
+    clear: both;
+}
